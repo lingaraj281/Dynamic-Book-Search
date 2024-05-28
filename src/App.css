@@ -1,0 +1,122 @@
+*{
+    background-color: rgb(255, 255, 255);
+    font-family: poppins;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.form-group{
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-bottom: 30px;
+    display: flex;
+}
+.btn{
+display: flex;
+margin: auto;
+}
+
+.results{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin-left: 350px;
+    margin-right: 350px;
+    /* background-color: rgb(176, 33, 33); */
+}
+.results-img{
+    margin-bottom: 15px;
+    /* background-color: red; */
+}
+.book-info{
+    display: flex;
+    flex-direction: column;
+    display: inline !important;
+}
+.book-title{
+    font-size: 18px;
+    font-family: poppins;
+    font-weight: 500 ;
+}
+.left-col{
+    display: flex;
+align-items: center;
+/* background-color: red; */
+}
+
+.row{
+    border-bottom: 0.3px solid black;   
+    margin-bottom: 10px;
+    padding-bottom: 30px
+}
+
+button a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+    border: none;
+    background-color: none;
+}
+.book-Description{
+    font-size: 15px;
+
+}
+
+.result{
+display: flex;
+flex-direction: column;
+margin-top: -30px;
+margin-left: 350px;
+margin-right: 350px;
+width: 740px;
+margin-bottom: 30px;
+border: 1px solid rgba(0, 0, 0, 0.2);
+border-radius: 5px;
+}
+
+.result-list{
+    /* border: 1px solid black; */
+    padding: 5px;
+
+    
+
+}
+
+.result-list:hover{
+    color:blue
+}
+
+.form-control{
+    margin-right: 10px;
+    width: 740px;
+    
+}
+.result-list-links{
+    text-decoration: none;
+    color: inherit;
+
+}
+
+.results-heading{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.back-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: -20px;
+    width: 100px;
+    height: 40px;
+    background-color: greenyellow;
+    border: 3px solid rgba(49, 82, 0);
+    border-radius: 5px;
+}
