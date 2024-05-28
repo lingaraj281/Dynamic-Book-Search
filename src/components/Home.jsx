@@ -29,7 +29,7 @@ const Home = () => {
                         </button>
                     </div>
                     <div className="col-sm section-same section1">
-                        <img src="../public/book-lover-44.png" alt="" />
+                        <img src="./public/book-lover-44.png" alt="Hello" />
                     </div>
                 </div>
                 <p className='signature'>Made With ❤️ by Dx</p>
